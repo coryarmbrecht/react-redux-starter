@@ -6,8 +6,8 @@ My preferred setup for react-redux apps
 1. [Requirements](#requirements)
 1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
-    1. [Tasks](#tasks)
-1. [Roadmap](#roadmap)
+    1. [Local Development](#local-development)
+    1. [Testing](#testing)
 1. [Contributing](#contributing)
 
 ## Requirements
