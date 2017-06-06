@@ -1,7 +1,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/Jukejc/react-redux-starter/badge.svg?branch=master)](https://coveralls.io/github/Jukejc/react-redux-starter?branch=master)
 
 # react-redux-starter
-My preferred setup for react-redux apps
+My preferred setup for small to medium sized React / Redux applications. Comes packaged with Travis CI, a Karma / Enzyme / Mocha testing suite, Webpack bundling, and a boilerplate Express server.
 
 ## Table of Contents
 1. [Features](#features)
