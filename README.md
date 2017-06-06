@@ -11,6 +11,7 @@ My preferred setup for react-redux apps
     1. [Installing Dependencies](#installing-dependencies)
     1. [Local Development](#local-development)
     1. [Testing](#testing)
+1. [Travis CI Setup](#travis-ci-setup)
 1. [Contributing](#contributing)
 
 ## Features
@@ -100,6 +101,12 @@ npm test
 karma start
 ```
 > Then view code coverage by opening ~/coverage/report/index.html
+
+## Travis CI Setup
+
+1. Sign into [Travis CI](https://travis-ci.org/auth) with Github account.
+1. Navigate to [profile page](https://travis-ci.org/profile) and enable repository to be built.
+1. Push commits to master branch of repo and navigate back to [Travis CI](https://travis-ci.org/). Builds will auto run on pushes to master branch, travis.yml file already setup.
 
 ## Contributing
 
