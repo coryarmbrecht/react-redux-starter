@@ -14,26 +14,49 @@ My preferred setup for react-redux apps
 
 ## Requirements
 
-  - body-parser
-  - cookie-parser  
-  - express
-  - express-session
-  - morgan  
-  - passport  
-  - react
-  - react-dom
-  - react-redux  
-  - react-router  
-  - redux  
-  - serve-favicon 
-  - babel-core
-  - babel-loader  
-  - babel-plugin-transform-async-to-generator
-  - babel-polyfill
-  - babel-preset-es2015
-  - babel-preset-react
-  - babel-preset-stage-1
-  - webpack
+### List of Packages
+----------------
+
+| Package                         | Description                                                           |
+| ------------------------------- | --------------------------------------------------------------------- |
+| cookie-parser                   | Parse Cookie header and populate req.cookies object                   |
+| dotenv                          | Loads environment variables from .env file.                           |
+| express                         | Node.js web framework.                                                |
+| body-parser                     | Express 4 middleware.                                                 |
+| express-session                 | Express 4 middleware.                                                 |
+| morgan                          | Express 4 middleware.                                                 |
+| serve-favicon                   | Express 4 middleware offering favicon serving and caching.            |
+| passport                        | Simple and elegant authentication library for node.js                 |
+| lodash                          | Handy JavaScript utlities library.                                    |
+| mocha                           | Test framework.                                                       |
+| chai                            | BDD/TDD assertion library.                                            |
+| react                           | Javascript library for building user interfaces                       |
+| react-redux                     | React bindings for Redux                                              |
+| react-router                    | Declarative routing for React                                         |
+| redux                           | State management container for React apps                             |
+| babel-core                      | Babel compiler core                                                   |
+| babel-loader                    | Allows transpiling of JS files using Babel and Webpack                |
+| babel-plugin-istanbul           | A Babel plugin that instruments your code with Istanbul coverage.     |
+| babel-plugin-transform-async-to-generator | Turn async functions into ES2015 generators                 |
+| babel-polyfill                  | Provides polyfills necessary for a full ES2015+ environment.          |
+| babel-preset-es2015             | Babel preset for all es2015 plugins.                                  |
+| babel-preset-react              | Babel preset for all React plugins.                                   |
+| babel-preset-stage-1            | [Babel preset for stage 1 plugins.](https://www.npmjs.com/package/babel-preset-stage-1) |
+| cross-env                       | Run scripts that set and use environment variables across platforms.  |
+| enzyme                          | JavaScript Testing utility for React                                  |
+| karma                           | Javascript test runner                                                |
+| karma-babel-preprocessor        | Preprocessor to compile ES6 on the fly with babel                     |
+| karma-coverage                  | Generate code coverage with karma and Istanbul                        |
+| karma-mocha                     | karma adapter for mocha testing framework                             |
+| karma-nyan-reporter             | Nyan Cat style testing reporter                                       |
+| karma-phantomjs-launcher | karma launcher for PhantomJS |
+| karma-sourcemap-loader | Preprocessor that locates and loads existing source maps. |
+| karma-webpack | karma plugin for running webpack |
+| mocha | Javascript testing framework |
+| react-addons-test-utils | React testing utilities |
+| react-dom | Rendering react components into DOM |
+| react-test-renderer | enzyme dependency for React component testing |
+| webpack | module bundler |
 
 ## Development
 
