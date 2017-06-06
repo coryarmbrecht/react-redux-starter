@@ -6,7 +6,7 @@ My preferred setup for react-redux apps
 ## Table of Contents
 
 1. [Requirements](#requirements)
-    1. 1. [List of Packages](#list-of-packages)
+    1. [List of Packages](#list-of-packages)
 1. [Development](#development)
     1. [Installing Dependencies](#installing-dependencies)
     1. [Local Development](#local-development)
