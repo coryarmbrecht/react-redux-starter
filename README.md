@@ -4,7 +4,7 @@
 My preferred setup for react-redux apps
 
 ## Table of Contents
-
+1. [Features](#features)
 1. [Requirements](#requirements)
     1. [List of Packages](#list-of-packages)
 1. [Development](#development)
@@ -12,6 +12,15 @@ My preferred setup for react-redux apps
     1. [Local Development](#local-development)
     1. [Testing](#testing)
 1. [Contributing](#contributing)
+
+## Features
+- Simple to understand file structure optimized for small to medium sized React / Redux applications
+- es2015 support
+- async / await support
+- Karma / Enzyme / Mocha test suite
+- Travis CI integration
+- Boilerplate Express server
+
 
 ## Requirements
 
