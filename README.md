@@ -25,7 +25,6 @@ My preferred setup for react-redux apps
 ## Requirements
 
 ### List of Packages
-----------------
 
 | Package                         | Description                                                           |
 | ------------------------------- | --------------------------------------------------------------------- |
@@ -75,23 +74,32 @@ My preferred setup for react-redux apps
 From within the root directory:
 
 ```sh
+# install npm dependencies
 npm install
 ```
 
 ### Local development
 
 ```sh
+# generates bundles.js with webpack
 npm run build
+
+# starts boilerplate express server
 npm run s
 ```
 
 ### Testing
 
 ```sh
+# single run karma test suite
 npm test
+
+# OR
+
+# auto run tests on file changes
+karma start
 ```
 > Then view code coverage by opening ~/coverage/report/index.html
-ßß
 
 ## Contributing
 
