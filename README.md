@@ -12,6 +12,7 @@ My preferred setup for react-redux apps
     1. [Local Development](#local-development)
     1. [Testing](#testing)
 1. [Travis CI Setup](#travis-ci-setup)
+1. [Coveralls Setup](#coveralls-setup)
 1. [Contributing](#contributing)
 
 ## Features
@@ -67,6 +68,7 @@ My preferred setup for react-redux apps
 | react-dom | Rendering react components into DOM |
 | react-test-renderer | enzyme dependency for React component testing |
 | webpack | module bundler |
+| coveralls | code coverage reporter viewable at [coveralls.io](https://coveralls.io/)
 
 ## Development
 
@@ -107,6 +109,12 @@ karma start
 1. Sign into [Travis CI](https://travis-ci.org/auth) with Github account.
 1. Navigate to [profile page](https://travis-ci.org/profile) and enable repository to be built.
 1. Push commits to master branch of repo and navigate back to [Travis CI](https://travis-ci.org/). Builds will auto run on pushes to master branch, travis.yml file already setup.
+
+## Coveralls Setup
+
+1. Login to [coveralls](https://coveralls.io) with Github.
+1. Enable tracking for your repo on [coveralls](https://coveralls.io/repos/new).
+1. That's it, Travis CI will run npm script on successful builds after that.
 
 ## Contributing
 
