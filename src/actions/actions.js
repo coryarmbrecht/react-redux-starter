@@ -1,1 +1,10 @@
-// an empty action for file structure to github
+import {
+  EXAMPLE_ACTION
+} from './types';
+
+export function exampleAction() {
+  return {
+    type: EXAMPLE_ACTION,
+    payload: 'Here\'s an example action!'
+  };
+}
