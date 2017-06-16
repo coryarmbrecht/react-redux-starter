@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div>
       <h1>{this.props.example}</h1>
-      <button onClick={this.props.exampleAction}> Click me to see an example action call </button>
+      <button className="example-btn" onClick={this.props.exampleAction}> Click me to see an example action call </button>
       </div>
     );
   }
