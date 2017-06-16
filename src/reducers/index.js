@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import filler from './defaultReducer';
+import defaultReducer from './defaultReducer';
 
 const rootReducer = combineReducers({
-  filler: filler
+  defaultReducer
 });
 
 export default rootReducer;
