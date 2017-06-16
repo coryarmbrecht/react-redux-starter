@@ -1,11 +1,21 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { exampleAction } from '../actions/actions';
 
-export default class App extends Component {
+class App extends Component {
   render() {
     return (
       <div>
-        <h1> react redux starter </h1>
+      <h1>{this.props.example}</h1>
+      <button onClick={this.props.exampleAction}> Click me to see an example action call </button>
       </div>
     );
   }
 }
+
+function mapStateToProps({ defaultReducer }) {
+  return {
+    example: defaultReducer.example
+  };
+}
+export default connect(mapStateToProps, { exampleAction })(App);
