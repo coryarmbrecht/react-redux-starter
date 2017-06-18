@@ -2,7 +2,6 @@ import React from 'react';
 import { shallow, mount } from 'enzyme';
 import { expect } from 'chai';
 import thunk from 'redux-thunk';
-import chaiHttp from 'chai-http';
 import { Provider } from 'react-redux';
 
 import mockStore from '../../src/Store';
