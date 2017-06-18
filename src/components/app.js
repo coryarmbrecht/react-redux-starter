@@ -14,9 +14,9 @@ class App extends Component {
   }
 }
 
-function mapStateToProps({ defaultReducer }) {
+function mapStateToProps({ appReducer }) {
   return {
-    example: defaultReducer.example
+    example: appReducer.example
   };
 }
 export default connect(mapStateToProps, { exampleAction })(App);
