@@ -1,21 +1,33 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import { shallow, mount } from 'enzyme';
 import { expect } from 'chai';
+import thunk from 'redux-thunk';
+import chaiHttp from 'chai-http';
+import { Provider } from 'react-redux';
+
+import mockStore from '../../src/Store';
 import App from '../../src/components/app';
+import { exampleAction } from '../../src/actions/actions';
 
 
 describe('<App />', function() {
 
-  // it('should render', function() {
-  //   const wrapper = shallow(<App />);
-  //   expect(wrapper.contains(
-  //     <button className="example-btn" onClick={this.props.exampleAction}> Click me to see an example action call </button>
-  //   )).to.equal(true);
-  // });
 
-  // it('should call action creator on button click', function() {
-  //   const wrapper = shallow(<App />);
+  describe('rendering', function() {
+    it('should render', function() {
+      const wrapper = mount(
+        <Provider store={mockStore}>
+          <App />
+        </Provider>
+      );
+      expect(wrapper.contains(
+        <p>Execute action creator to see example rendered.</p>
+      )).to.equal(true);
+    });
+  });
 
-  // });
+  describe('actions', function() {
+
+  });
 
 });
