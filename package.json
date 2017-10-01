@@ -38,6 +38,7 @@
     "serve-favicon": "^2.4.3"
   },
   "devDependencies": {
+    "babel-cli": "6.26.0",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-plugin-istanbul": "^4.1.4",
@@ -59,6 +60,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.3",
     "mocha": "^3.4.2",
+    "nodemon": "1.12.1",
     "react-addons-test-utils": "^15.5.1",
     "react-dom": "^15.5.4",
     "react-test-renderer": "^15.5.4",
